@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:25%;
+}
+.main_box1{
+    height:15%;
+    width:80%;
+    background-color: aqua;
+    display:flex;
+}
+
+/* box 1 starts here------------------- */
+.box{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.box_1{
+     background-color: #FAA000;
+}
+.box_2{
+  background-color: #DF4800;
+}
+.box_3{
+background-color: #CC1315;
+}
+.box_4{
+background-color: #BCC1C6;
+}
+.box_5{
+background-color: #7E8A8C;
+}
+
+
+/* box2 starts here---------------- */
+.main_box2{
+    height:15%;
+    width:80%;
+    background-color: aqua;
+    display:flex;
+}
+
+.box1{
+    background-color: #FAA000;
+    order:5;
+}
+.box2{
+    background-color: #DF4800;
+    order:3;
+}
+.box3{
+    background-color: #CC1315;
+    order:1;
+}
+.box4{
+    background-color: #BCC1C6;
+    order:4;
+}
+.box5{
+    background-color: #7E8A8C;
+    order:1;
+}
+
